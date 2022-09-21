@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Bekleviç - Programlama Eğitimi</title>
+    <meta name="keyword" content="html, css, javaScript">
+    <meta 
+        name="description" 
+        content="Mustafa Bekleviç - Programlama Eğitimi" 
+        >
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="CSS/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="CSS/mobile.css">
+
+</head>
+<body>
+    <header class="bg-dark-blue pos-fixed">
+        <div class="container">
+            <nav id="navbar">
+
+                <h1 class="heading-small">Mustafa Bekleviç</h1>
+    
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <section id="home">
+
+        <img src="./Images/MustafaBekleviç.jpg" alt="Mustafa Bekleviç">
+
+        <div class="name text-center">
+
+            <h2 class="heading-big">Mustafa Bekleviç</h2>
+            <p>MSc Mechanical Engineer </p>
+        </div>
+        
+        <a href="Courses" class="btn btn-primary">Kurslara Git</a>
+
+    </section>
+
+
+    <section id="training" class="bg-dark-blue">
+
+
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf içi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quo?</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online İçerikler</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quo?</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quo?</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+
+        <h2 class="text-center heading-medium">Kurslar</h2>
+        <div class="container">
+            <div class="courses">
+                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./Images/Inventor.png" alt="Inventor">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Inventor 3D Tassarım Kursu
+                        </div>
+                        <div class="description">
+                            Cad Geliştirme Kursu
+                        </div>
+                        <div class="instructor">
+                            Mustafa Bekleviç
+                        </div>
+                        <div class="rating">
+                            4.7 (1907 Oylama)
+                        </div>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./Images/AutoCad.jpg" alt="Inventor">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            AutoCad 2D Tassarım Kursu
+                        </div>
+                        <div class="description">
+                            Cad Geliştirme Kursu
+                        </div>
+                        <div class="instructor">
+                            Mustafa Bekleviç
+                        </div>
+                        <div class="rating">
+                            4.6 (1907 Oylama)
+                        </div>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./Images/SketchUp1.png" alt="Inventor">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            SketchUp 3D Tassarım Kursu
+                        </div>
+                        <div class="description">
+                            Cad Geliştirme Kursu
+                        </div>
+                        <div class="instructor">
+                            Mustafa Bekleviç
+                        </div>
+                        <div class="rating">
+                            4.8 (1907 Oylama)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                   <input 
+                        type="text" 
+                        class="form-control" 
+                        name="name" id="name" 
+                        placeholder="isim">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                   <input 
+                        type="email" 
+                        class="form-control" 
+                        name="email" 
+                        id="email" 
+                        placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                   <textarea 
+                        name="message"
+                        class="form-control" 
+                        id="mesaage" 
+                        rows="5"
+                        placeholder="Mesajınız..."     
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li> <a href="HesapAktifDeğil :)"><i class="fab fa-facebook"></i>Facebook</a></li>
+                <li> <a href="HesapAktifDeğil :)"><i class="fab fa-twitter"></i>Twitter</a></li>
+                <li> <a href="https://www.instagram.com/mbeklevic/"><i class="fab fa-instagram"></i>Instagram</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+</body>
+</html>
